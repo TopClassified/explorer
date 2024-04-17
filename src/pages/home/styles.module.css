@@ -1,0 +1,193 @@
+
+.table_content {
+    box-sizing: border-box;
+    text-indent: initial;
+    border-collapse: separate !important;
+    border-spacing: 20px;
+    border-color: grey;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 1250px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+
+.search {
+    width: 60%;
+    min-width: 200px;
+    border-radius: 12px;
+}
+
+.search fieldset {
+    border-color: #fff !important;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.page_header {
+    text-align: left;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.page_header h3 a {
+    font-weight: bold;
+}
+
+.page_header span {
+    color: #fff;
+    font-weight: 600;
+}
+
+.page_header_title {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    flex: 1 1 0;
+    color: #fff;
+}
+
+.page_header_title h3 {
+    font-weight: bold;
+}
+
+
+.validator_overview {
+    display: flex;
+}
+
+.validator_overview li span {
+    display: flex;
+    flex-direction: row;
+}
+
+.validator_overview li p {
+}
+
+.validator_overview_table {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.validator_overview_table tr {
+    color: rgb(202, 202, 209);
+
+}
+
+.validator_overview_table tr:nth-of-type(odd) {
+    background: rgba(0, 0, 0, .02);
+}
+
+.validator_overview_table a {
+    color: #ae96e1;
+    font-size: 20px;
+}
+
+.validator_overview_table th {
+    padding: 15px 20px;
+    font-weight: bold;
+    vertical-align: center;
+
+}
+
+.validator_overview_table td {
+    vertical-align: center;
+    font-weight: bold;
+}
+
+.validator_overview_table tbody.validator_overview_table_tbody th:first-child {
+    padding-left: 20px;
+}
+
+.status_type {
+    color: #fff;
+    font-weight: 500;
+}
+
+.status_info {
+    margin-top: 10px;
+    color: #fff !important;
+    font-weight: 800;
+}
+
+
+
+.pending {
+    color: #7390ed;
+}
+
+.rejected {
+    color: rgba(241, 91, 91, 0.92);
+}
+
+.passed {
+    color: rgba(30, 232, 30, 0.96);
+}
+
+.loaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.overviewCard {
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.signaturesPaper {
+    color: #ffffff;
+}
+
+.overviewTable, .signatureListItem, .transactionItem {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.overviewTable th{
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #555;
+}
+
+.overviewTable td{
+    padding: 8px;
+    text-align: right;
+    font-size: 18px;
+    max-width: 1000px;
+    color: #00adb2;
+    font-weight: bold;
+    border-bottom: 1px solid #555;
+}
+
+.signatureListItem, .transactionItem {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.transactionItem a {
+    color: #00adb2;
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(244, 244, 244);
+}
+
+button:focus {
+  outline: none;
+}
+
+code {
+  font-family: 'Nunito', sans-serif;
+}
+
+html {
+  font-family: 'Josefin Slab', serif;
+}
